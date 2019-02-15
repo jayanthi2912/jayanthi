@@ -1,0 +1,1 @@
+import matplotlib.pyplot as pltimport numpy as npfs=8000f=1000x=np.arange(-1,1,0.05)plt.figure(1)y=np.exp(x)plt.plot(x,y,'blue')plt.xlabel('samples(n)')plt.ylabel('voltage(v)')plt.show()
